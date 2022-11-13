@@ -1,0 +1,134 @@
+@import url('https://fonts.cdnfonts.com/css/jua');
+@import url('https://fonts.cdnfonts.com/css/jsmath-cmbx10');
+@import url('https://fonts.cdnfonts.com/css/k2d');
+
+body{
+    background-color: #302842;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.offcanvas{
+    height: fit-content;
+}
+img{
+    border: 2px solid #801655;
+}
+a:link{
+    color: #801655;
+}
+.posts img{
+    border: none;
+}
+.posts h5{
+    font-family: 'K2D', sans-serif;
+}
+.posts span{
+    font-family: 'K2D', sans-serif;
+}
+.reactions a{
+    color: #801655;
+}
+.reactions a:visited{
+    color: #801655;
+}
+.likes{
+    font-family: 'K2D', sans-serif;
+}
+.post1{
+    border-radius: 12px;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+.sections{
+    background-color: #4B4467;
+    color: white;
+}
+
+/*
+.messages{
+    height: 100%;
+    position: fixed;
+    width: 18%;
+    right: 11.5%;
+}
+.nav-menu{
+    height: 100%;
+    position: fixed;
+    width: 18%;
+    left: 1;
+}*/
+@media screen and (max-width: 1199px) {
+    .messages {
+      display: none;
+    }
+    .nav-menu-wide{
+        display: none;
+    }
+}
+.add-comment:hover{
+    cursor:text;
+}
+input[type=search]{
+    font-weight: bold;
+    font-family: 'K2D', sans-serif;
+}
+.main{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.list-group{
+    border: none;
+    font-family: 'K2D', sans-serif;
+    line-height: 40px;
+}
+.list-group{
+    color: gray;
+}
+.messages{
+    font-family: 'K2D', sans-serif;
+    line-height: 40px;
+}
+.messages .sections{
+    border-radius: 10px;
+}
+.messages .profiles{
+    border-radius: 20px;
+}
+.profiles{
+    background-color: #4B4467;
+    font-size: 20px;
+}
+a:hover{
+    opacity: 0.5;
+
+}
+.post{
+    background: rgba(227, 227, 227, 0.31);
+}
+.posts{
+    border-radius: 20px;
+}
+nav{
+    background-color: #4B4467;
+}
+nav button:hover{
+    opacity: 0.5;
+}
+.menu{
+    background-color: #4B4467;
+    border-radius: 25px;
+}
+.profile{
+    border-radius: 20px;
+}
+.main-section{
+    
+    margin-top: 0px;
+}
