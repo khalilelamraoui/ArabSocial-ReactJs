@@ -8,7 +8,9 @@ export default function Messages(){
     return(
         <div class="col gy-5 messages">
             <div class="sections d-flex justify-content-center mt-5 border-bottom border-2 border-dark">
-                <h5 href="#" class="text-decoration-none mt-2 fw-bold"><li class="list-group-item bg-transparent text-white border-0"><i class="fa-solid fa-user-group"></i> MESSAGES</li></h5>
+                <h5 href="#" class="text-decoration-none mt-2 fw-bold"><li class="list-group-item bg-transparent text-white border-0"><i class="fa-solid fa-user-group"></i> MESSAGES
+                <span class="position-absolute top-25 start-100 translate-middle badge rounded-pill bg-light text-dark">5 <span class="visually-hidden">unread messages</span></span>
+                </li></h5>
             </div>
             <div class="profiles d-flex flex-column p-3 gap-3 align-items-start">
                 <a class="profile d-flex bg-transparent align-items-center justify-content-center gap-3" href="elizabeth">
